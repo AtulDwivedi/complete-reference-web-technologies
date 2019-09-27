@@ -1,0 +1,34 @@
+/* by color name */
+h1{
+  color: blue;
+}
+
+/*
+Color Picker
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+*/
+
+/* by rgb(Red/Green/Blue) combination */
+p{
+  color: rgb(63, 191, 136);
+}
+
+/* by rgba(Red/Green/Blue/Alpha) combination */
+h2{
+  color: rgba(63, 191, 136, 0.5);
+}
+
+/* by hexa code */
+ul{
+  color: #BF3F90;
+}
+
+/* by HSL(Hue/Saturation/Lightness) code */
+h4{
+  color: hsl(239, 50%, 50%);
+}
+
+/* by HSL(Hue/Saturation/Lightness/Alpha) code */
+h5{
+  color: hsl(239, 50%, 50%, 0.4);
+}

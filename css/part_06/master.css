@@ -1,0 +1,31 @@
+.firstClass{
+  color: red;
+}
+
+.secondClass{
+  color: blue;
+}
+
+#signalOut{
+  color: yellow;
+  text-decoration: underline;
+}
+
+/*
+*{
+  color: black;
+}
+*/
+
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+li a{
+  color: orange;
+}
+
+li a[href="https://wwww.google.com"]{
+  color: green;
+  border: 2px solid #BF3F90;
+}

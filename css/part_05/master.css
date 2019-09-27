@@ -1,0 +1,21 @@
+body{
+  /* background: gray; */
+  background: url(https://eatstaylovelife.com/wp-content/uploads/2014/10/Beach-header.jpg);
+  background-repeat: repeat;
+}
+
+p{
+  color: blue;
+}
+
+div{
+  background: green;
+  border-color: purple;
+  border-width: 5px;
+  border-style: double;
+}
+
+span{
+  background: red;
+  color: black;
+}

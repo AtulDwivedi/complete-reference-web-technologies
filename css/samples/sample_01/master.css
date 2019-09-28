@@ -1,0 +1,19 @@
+.main-items-row{
+  float: left;
+  align-items: center;
+  width: 100%;
+  height: 360px;
+}
+
+.main-items-col{
+  float: left;
+  border: 2px solid gray;
+  width: 24%;
+  height: 360px;
+  align-items: center;
+}
+
+img{
+  width: 100%;
+  height: 100%
+}

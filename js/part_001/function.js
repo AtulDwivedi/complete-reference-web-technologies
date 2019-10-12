@@ -49,18 +49,19 @@ function sum(num1, num2) {
 // console.log(hour) - Uncaught ReferenceError: hour is not defined
 // console.log(minute) - Uncaught ReferenceError: minute is not defined
 function getTime(hour) {
-  var minute = 60;
+    var minute = 60;
 }
 
 
 var name = "Java"
 var surname = "Script"
 
-console.log("Outside function(before modification by function): "+(name + surname))
+console.log("Outside function(before modification by function): " + (name + surname))
+
 function fullName(name) {
-  console.log(">> Inside function(before modification): "+ (name + surname))
-  name = "Live"
-  console.log(">> Inside function(after modification): "+ (name + surname))
+    console.log(">> Inside function(before modification): " + (name + surname))
+    name = "Live"
+    console.log(">> Inside function(after modification): " + (name + surname))
 }
 fullName()
-console.log("Outside function(after modification by function): "+(name + surname))
+console.log("Outside function(after modification by function): " + (name + surname))
